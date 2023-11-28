@@ -17,7 +17,14 @@ h1 {
 
 .fs-500 {
   font-size: 1.3125rem;
+}
+.top {
   margin-top: 0;
+  color: #4e4e4e;
+}
+.bottom {
+  margin-top: 20;
+  color: #4e4e4e;
 }
 
 .plans {
@@ -53,6 +60,9 @@ h1 {
   font-weight: 900;
   margin: 0;
 }
+.blue {
+  color: #00a1ab;
+}
 
 .plan__price span {
   display: block;
@@ -81,4 +91,8 @@ h1 {
 .button--dark {
   color: white;
   background: #4e4e4e;
+}
+.button--blue {
+  color: white;
+  background: #00a1ab;
 }
