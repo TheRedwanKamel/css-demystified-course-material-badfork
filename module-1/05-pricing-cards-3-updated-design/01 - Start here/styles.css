@@ -73,7 +73,7 @@ body {
 }
 
 .plan {
-  width: 200px;
+  width: 250px;
   padding: 2em;
   border-radius: 1em;
   margin: 0 0.5em;
@@ -91,6 +91,11 @@ body {
 .plan--light .button {
   color: white;
   background: #4e4e4e;
+}
+
+.plan--dark {
+  color: white;
+  background-color: #4e4e4e;
 }
 
 .plan--accent {
@@ -136,7 +141,7 @@ body {
 }
 
 .team-member {
-  background: #abc;
+  background: #4e4e4e;
   text-align: left;
   flex: 1 1 45%;
   margin: 1em;
@@ -144,6 +149,28 @@ body {
   border-radius: 0.5em;
   align-items: center;
   padding: 0.5em 2em 0.5em 0.5em;
+  gap: 20px;
+  color: white;
+
+  .name {
+    font-size: 1.5em;
+  }
+}
+
+.team-member-light {
+  background: #e5e3e8;
+  text-align: left;
+  flex: 1 1 45%;
+  margin: 1em;
+  display: flex;
+  border-radius: 0.5em;
+  align-items: center;
+  padding: 0.5em 0.5em 0.5em 2em;
+
+  .name {
+    font-size: 1.5em;
+    color: #00a1ab;
+  }
 }
 
 .team-member img {
